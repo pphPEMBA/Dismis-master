@@ -1,0 +1,24 @@
+name:
+  Pemba
+city_name:
+  KAKARBHITTA, NEPAL
+city_code:
+  NPPW3536
+music_path:
+  D:\music
+
+iphone:
+  icloud_username:
+    something
+  icloud_password:
+    something
+
+twitter:
+    access_token:
+        Something
+    access_token_secret:
+        Something
+    consumer_key:
+        Something
+    consumer_secret:
+        Something

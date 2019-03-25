@@ -2,9 +2,9 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>c86e2737-b2c3-4560-b0d7-5a4b88f36585</ProjectGuid>
+    <ProjectGuid>2174528e-1787-476b-b9ef-1a1723d11559</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Dismis_master.py</StartupFile>
+    <StartupFile>Dismis.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,7 +21,83 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Dismis_master.py" />
+    <Compile Include="action\browser.py" />
+    <Compile Include="action\date_time.py" />
+    <Compile Include="action\define.py" />
+    <Compile Include="action\find_iphone.py" />
+    <Compile Include="action\games\Hangman\hangman.py" />
+    <Compile Include="action\games\Hangman\__init__.py" />
+    <Compile Include="action\games\__init__.py" />
+    <Compile Include="action\horoscope.py" />
+    <Compile Include="action\jokes.py" />
+    <Compile Include="action\lets_talk.py" />
+    <Compile Include="action\music.py" />
+    <Compile Include="action\music_cmd.py" />
+    <Compile Include="action\news.py" />
+    <Compile Include="action\notes.py" />
+    <Compile Include="action\quote.py" />
+    <Compile Include="action\scissorpaperrock.py" />
+    <Compile Include="action\self_destruct.py" />
+    <Compile Include="action\speedtest.py" />
+    <Compile Include="action\system_status.py" />
+    <Compile Include="action\system_task.py" />
+    <Compile Include="action\tts\text_to_speech.py" />
+    <Compile Include="action\tts\__init__.py" />
+    <Compile Include="action\weather.py" />
+    <Compile Include="action\__init__.py" />
+    <Compile Include="brain.py" />
+    <Compile Include="Dismis.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="action\" />
+    <Folder Include="action\games\" />
+    <Folder Include="action\games\Hangman\" />
+    <Folder Include="action\games\Hangman\__pycache__\" />
+    <Folder Include="action\games\__pycache__\" />
+    <Folder Include="action\tts\" />
+    <Folder Include="action\tts\__pycache__\" />
+    <Folder Include="action\__pycache__\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="action\games\Hangman\click.wav" />
+    <Content Include="action\games\Hangman\hangman.jpg" />
+    <Content Include="action\games\Hangman\icon.png" />
+    <Content Include="action\games\Hangman\loss.wav" />
+    <Content Include="action\games\Hangman\music.mp3" />
+    <Content Include="action\games\Hangman\README.md" />
+    <Content Include="action\games\Hangman\win.wav" />
+    <Content Include="action\games\Hangman\wordlist" />
+    <Content Include="action\games\Hangman\__pycache__\hangman.cpython-36.pyc" />
+    <Content Include="action\games\Hangman\__pycache__\__init__.cpython-36.pyc" />
+    <Content Include="action\games\__pycache__\scissorpaperrock.cpython-36.pyc" />
+    <Content Include="action\games\__pycache__\__init__.cpython-36.pyc" />
+    <Content Include="action\tts\__pycache__\text_to_speech.cpython-36.pyc" />
+    <Content Include="action\tts\__pycache__\text__to_speech.cpython-36.pyc" />
+    <Content Include="action\tts\__pycache__\__init__.cpython-36.pyc" />
+    <Content Include="action\__pycache__\browser.cpython-36.pyc" />
+    <Content Include="action\__pycache__\business_news.cpython-36.pyc" />
+    <Content Include="action\__pycache__\date_time.cpython-36.pyc" />
+    <Content Include="action\__pycache__\define.cpython-36.pyc" />
+    <Content Include="action\__pycache__\facebook_interaction.cpython-36.pyc" />
+    <Content Include="action\__pycache__\facebook_intergration.cpython-36.pyc" />
+    <Content Include="action\__pycache__\find_iphone.cpython-36.pyc" />
+    <Content Include="action\__pycache__\horoscope.cpython-36.pyc" />
+    <Content Include="action\__pycache__\jokes.cpython-36.pyc" />
+    <Content Include="action\__pycache__\lets_talk.cpython-36.pyc" />
+    <Content Include="action\__pycache__\music.cpython-36.pyc" />
+    <Content Include="action\__pycache__\news.cpython-36.pyc" />
+    <Content Include="action\__pycache__\notes.cpython-36.pyc" />
+    <Content Include="action\__pycache__\quote.cpython-36.pyc" />
+    <Content Include="action\__pycache__\scissorpaperrock.cpython-36.pyc" />
+    <Content Include="action\__pycache__\self_destruct.cpython-36.pyc" />
+    <Content Include="action\__pycache__\speedtest.cpython-36.pyc" />
+    <Content Include="action\__pycache__\system_status.cpython-36.pyc" />
+    <Content Include="action\__pycache__\system_task.cpython-36.pyc" />
+    <Content Include="action\__pycache__\us_news.cpython-36.pyc" />
+    <Content Include="action\__pycache__\__init__.cpython-36.pyc" />
+    <Content Include="memory.db" />
+    <Content Include="profile.yaml" />
+    <Content Include="requirements.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
