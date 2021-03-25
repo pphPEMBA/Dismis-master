@@ -30,7 +30,7 @@ pyttsx3==2.7
 pytz==2018.9
 pywin32==224
 pywin32-ctypes==0.2.0
-PyYAML==3.13
+PyYAML==5.4
 requests==2.21.0
 selenium==3.141.0
 setuptools==40.8.0
