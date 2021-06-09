@@ -18,7 +18,7 @@ more-itertools==6.0.0
 nltk==3.4
 numpy==1.16.2
 Pillow==5.4.1
-pip==19.0.3
+pip==19.2
 playsound==1.2.2
 psutil==5.5.1
 PyAudio==0.2.11
